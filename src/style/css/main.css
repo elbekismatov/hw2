@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul li, ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .warpper-top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1440px;
+}
+.wrapper .warpper-top-part .home {
+  width: 100%;
+  max-width: 840px;
+  padding: 63px 64px 465px;
+  background-image: url(../../img/heaer-bc.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 56px;
+}
+.wrapper .warpper-top-part .home .buttons {
+  display: none;
+}
+.wrapper .warpper-top-part .home .menu-pattern {
+  display: none;
+}
+.wrapper .warpper-top-part .home .nav {
+  width: 100%;
+  max-width: 244px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 31px;
+}
+.wrapper .warpper-top-part .home .nav li a {
+  font-family: League Spartan;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14.72px;
+  letter-spacing: -0.6666666865px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.wrapper .warpper-top-part .home .nav li a:hover {
+  width: 16px;
+  border-bottom: 1px solid white;
+}
+.wrapper .warpper-top-part .information {
+  width: 600px;
+  height: 547px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.wrapper .warpper-top-part .information h2 {
+  max-width: 400px;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 44.16px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.wrapper .warpper-top-part .information p {
+  max-width: 400px;
+  font-family: League Spartan;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.3333333433px;
+  text-align: left;
+  color: #A0A0A0;
+  margin-bottom: 26px;
+}
+.wrapper .warpper-top-part .information p:nth-child(3) {
+  width: 100%;
+  max-width: 400px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: League Spartan;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 12.5px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 0px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  cursor: pointer;
+}
+.wrapper .warpper-top-part .information p:nth-child(3):hover {
+  opacity: 50%;
+}
+.wrapper .warpper-top-part .information div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.wrapper .warpper-top-part .information div button {
+  padding: 28px 34px;
+  border: none;
+  background: #000000;
+  cursor: pointer;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.wrapper .warpper-top-part .information div button:hover {
+  background: #444444;
+}
+.wrapper .wrapper-bottom-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .wrapper-bottom-part .information {
+  padding: 60px 48px 58px;
+}
+.wrapper .wrapper-bottom-part .information h2 {
+  font-family: League Spartan;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-align: justified;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.wrapper .wrapper-bottom-part .information p {
+  font-family: League Spartan;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.3333333433px;
+  text-align: left;
+  color: #A0A0A0;
+  max-width: 484px;
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .warpper-top-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    max-width: 375px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .warpper-top-part .home {
+    width: 100%;
+    max-width: 375px;
+    padding: 63px 64px 465px;
+    background-image: url(../../img/home-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    gap: 123px;
+    margin-bottom: 60px;
+  }
+  .wrapper .warpper-top-part .home .buttons {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .warpper-top-part .home .buttons button {
+    padding: 19.6px 23.8px;
+    background: #000000;
+    border: none;
+  }
+  .wrapper .warpper-top-part .home .menu-pattern {
+    display: block;
+  }
+  .wrapper .warpper-top-part .home .nav {
+    display: none;
+  }
+  .wrapper .warpper-top-part .information {
+    width: 100%;
+    max-width: 375px;
+    height: 278px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    margin-bottom: 72px;
+  }
+  .wrapper .warpper-top-part .information h2 {
+    max-width: 311px;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36.8px;
+    letter-spacing: -1.6666666269px;
+    text-align: left;
+    margin-bottom: 18px;
+  }
+  .wrapper .warpper-top-part .information p {
+    max-width: 311px;
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.3333333433px;
+    text-align: left;
+    margin-bottom: 41px;
+  }
+  .wrapper .warpper-top-part .information p:nth-child(3) {
+    width: 100%;
+    max-width: 311px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 12.5px;
+  }
+  .wrapper .warpper-top-part .information div {
+    display: none;
+  }
+  .wrapper .wrapper-bottom-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .wrapper-bottom-part img {
+    width: 100%;
+    max-width: 375px;
+  }
+  .wrapper .wrapper-bottom-part .information {
+    width: 100%;
+    max-width: 375px;
+    padding: 49px 32px 41px;
+  }
+  .wrapper .wrapper-bottom-part .information h2 {
+    font-family: League Spartan;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 5.8333334923px;
+    text-align: justified;
+    margin-bottom: 15px;
+  }
+  .wrapper .wrapper-bottom-part .information p {
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.3333333433px;
+    text-align: left;
+    color: #A0A0A0;
+    max-width: 311px;
+  }
+}
